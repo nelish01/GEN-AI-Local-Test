@@ -1,0 +1,11 @@
+1. Creating the invoriment by running the command --> create conda -p venv python == 3.9 --y
+
+
+// sometime python 3.9 not available so in this case try to get the available python packages with command --> conda search python and next command conda-forge (which often
+has a broader selection pf packages and versions with command conda config --add channels  conda-forge and then create by --> create conda -p new python==3.9) //
+
+
+2. fill our requirement.txt, that means we will install some library within it.
+3. activate the invoirnment , by running --> conda activate
+4. then install all the requirements by running command --> pip install -r requirement.txt
+5. Once you complete the code in app.py then run the streamlit by using command --> streamlit run app.py
